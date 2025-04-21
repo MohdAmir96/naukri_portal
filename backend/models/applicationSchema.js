@@ -29,7 +29,7 @@ const applicationSchema = new mongoose.Schema({
     },
     coverLetter: {
       type: String,
-      required: true,
+      required: false,
     },
     role: {
       type: String,
